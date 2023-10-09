@@ -67,7 +67,7 @@ dict = {
 }
 
 
-if sys.argv[1] == 'discrypt':
+if sys.argv[1] == 'decrypt':
         try:
                 with open('Encrypted_msg.txt') as ready:
                         r = ready.read()
@@ -84,7 +84,7 @@ if sys.argv[1] == 'discrypt':
                 print('something has been written not right')
 
 
-elif sys.argv[1] == 'enscrypt':
+elif sys.argv[1] == 'encrypt':
         try:
                 with open('Encrypted_msg.txt', 'w') as new:
                         string = input()
